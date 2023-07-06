@@ -8,4 +8,11 @@ document.addEventListener("visibilitychange", function () {
     } else {
         document.title = title;
     }
-})
+});
+
+
+function calculator(operator, a, b) {
+    if (operator == "+") {
+        return a + b;
+    }
+}
