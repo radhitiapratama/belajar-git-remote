@@ -12,19 +12,21 @@ document.addEventListener("visibilitychange", function () {
 
 
 function calculator(operator, a, b) {
-    if (operator == "+") {
-        return a + b;
-    }
+    switch (operator) {
+        case "+":
+            return a + b;
+            break;
 
-    if (operator == "-") {
-        return a - b;
-    }
+        case "-":
+            return a - b;
+            break;
 
-    if (operator == "*") {
-        return a * b;
-    }
+        case "*":
+            return a * b;
+            break;
 
-    if (operator == "/") {
-        return a / b;
+        case "/":
+            return a / b;
+            break;
     }
 }
