@@ -15,4 +15,16 @@ function calculator(operator, a, b) {
     if (operator == "+") {
         return a + b;
     }
+
+    if (operator == "-") {
+        return a - b;
+    }
+
+    if (operator == "*") {
+        return a * b;
+    }
+
+    if (operator == "/") {
+        return a / b;
+    }
 }
